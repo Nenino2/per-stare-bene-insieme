@@ -1,0 +1,53 @@
+body {
+	background-image: url(https://faqzine.files.wordpress.com/2014/07/flag_bandera_gay_community_two_by_paundpro-d5qc3gu.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: 5em;
+	font-family: 'Potta One', cursive;
+	text-shadow: 0 0 10px red;
+}
+
+.play {
+	fill: rgb(255, 255, 255);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bubble {
+	background-image: radial-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+	text-align: center;
+	display: grid;
+	place-content: center;
+	border-radius: 50%;
+	width: 13vw;
+	height: 13vw;
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	font-size: 0.9vw;
+	text-transform: uppercase;
+	transition: 2s all;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+@media only screen and (max-width: 1000px) {
+	h1 {
+		font-size: 2em;
+	}
+
+	.bubble {
+		width: 20vw;
+		height: 20vw;
+		font-size: 1.7vw;
+	}
+}
