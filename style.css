@@ -11,6 +11,7 @@ h1 {
 	font-size: 5em;
 	font-family: 'Potta One', cursive;
 	text-shadow: 0 0 10px red;
+	text-align: center;
 }
 
 .play {
